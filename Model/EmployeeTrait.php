@@ -1,12 +1,12 @@
 <?php
 namespace BlackBoxCode\Pando\Bundle\EmployeeBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\BaseBundle\Model\HasIdTrait;
+use BlackBoxCode\Pando\Bundle\BaseBundle\Model\BaseTrait;
 use Doctrine\ORM\Mapping as ORM;
 
 trait EmployeeTrait
 {
-    use HasIdTrait;
+    use BaseTrait;
 
     /**
      * @ORM\ManyToMany(targetEntity="Employee", inversedBy="children")
