@@ -14,12 +14,12 @@ trait EmployeeTrait
      *     joinColumns={@ORM\JoinColumn(name="parent_id", nullable=false)},
      *     inverseJoinColumns={@ORM\JoinColumn(name="child_id", nullable=false)}
      * )
-     **/
+     */
     private $parents;
 
     /**
      * @ORM\ManyToMany(targetEntity="Employee", mappedBy="parents")
-     **/
+     */
     private $children;
 
     /**
