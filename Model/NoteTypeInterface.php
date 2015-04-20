@@ -1,9 +1,7 @@
 <?php
 namespace BlackBoxCode\Pando\Bundle\EmployeeBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\NoteBundle\Model\NoteTypeInterface as NoteBundleNoteTypeInterface;
-
-interface NoteTypeInterface extends NoteBundleNoteTypeInterface
+interface NoteTypeInterface extends \BlackBoxCode\Pando\Bundle\NoteBundle\Model\NoteTypeInterface
 {
     const EMPLOYEE = 'Employee';
 }
