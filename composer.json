@@ -11,12 +11,22 @@
     "keywords": ["pando employee bundle"],
     "license": ["LGPL-3.0"],
     "require": {
+        "blackboxcode/pando-note-bundle": "1.0.0",
+        "blackboxcode/pando-person-bundle": "1.0.0"
     },
     "autoload": {
         "psr-4": {"BlackBoxCode\\Pando\\Bundle\\EmployeeBundle\\": ""}
     },
-    "repositories": [{
-    }],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/BlackBoxRepo/PandoNoteBundle"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/BlackBoxRepo/PandoPersonBundle"
+        }
+    ],
     "extra": {
         "branch-alias": {
             "dev-master": "develop"
