@@ -1,7 +1,7 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\EmployeeBundle\Model;
+namespace BlackBoxCode\Pando\EmployeeBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\BaseBundle\Model\IdInterface;
+use BlackBoxCode\Pando\BaseBundle\Model\IdInterface;
 use Doctrine\Common\Collections\ArrayCollection;
 
 interface EmployeeInterface extends IdInterface

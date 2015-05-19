@@ -1,5 +1,5 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\EmployeeBundle\Model;
+namespace BlackBoxCode\Pando\EmployeeBundle\Model;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\ORM\Mapping as ORM;

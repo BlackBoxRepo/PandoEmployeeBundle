@@ -1,7 +1,7 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\EmployeeBundle\Model;
+namespace BlackBoxCode\Pando\EmployeeBundle\Model;
 
-interface NoteInterface extends \BlackBoxCode\Pando\Bundle\NoteBundle\Model\NoteInterface
+interface NoteInterface extends \BlackBoxCode\Pando\NoteBundle\Model\NoteInterface
 {
     /**
      * @return EmployeeInterface

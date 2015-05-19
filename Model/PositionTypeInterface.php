@@ -1,7 +1,7 @@
 <?php
-namespace BlackBoxCode\Pando\Bundle\EmployeeBundle\Model;
+namespace BlackBoxCode\Pando\EmployeeBundle\Model;
 
-use BlackBoxCode\Pando\Bundle\BaseBundle\Model\TypeInterface;
+use BlackBoxCode\Pando\BaseBundle\Model\TypeInterface;
 
 interface PositionTypeInterface extends TypeInterface
 {
